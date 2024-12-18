@@ -31,9 +31,7 @@ fn main() {
     println!("{storage}");
 
     for movement in movements {
-        println!("Moving {}", movement);
         storage.move_robot(&movement);
-        println!("{storage}");
     }
 
     println!("---");
